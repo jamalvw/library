@@ -87,6 +87,7 @@ body {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	background-color: #A5A5B8;
 	gap: 12px;
+	min-height: 30%;
 }
 
 .book
