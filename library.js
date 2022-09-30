@@ -134,10 +134,4 @@ bookFormAddBtn.onclick = () =>
 	bookFormContainerDiv.hidden = true;
 }
 
-const book = Book('To kill a mockingbird 2', 'vincevaris', true);
-const book2 = Book('percy jackson 10', 'vincevaris 2', false);
-
-addBookToLibrary(book);
-addBookToLibrary(book2);
-
 displayBooks();
