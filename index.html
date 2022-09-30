@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./stylesheet.css">
+	<title>Library</title>
+</head>
+<body>
+	<div class="container">
+		<div class="library">
+			<div class="library__header">
+				<div class="title">Library</div>
+				<div class="description">Keep track of your books.</div>
+			</div>
+			<div class="library__actions">
+				<button class="library__add-book">Add Book</button>
+				<button class="library__cancel-book" hidden>Cancel</button>
+			</div>
+			<div class="library__book-form-container" hidden>
+				<label>Title</label>
+				<input id="book-form__title" type="text">
+				<label>Author</label>
+				<input id="book-form__author" type="text">
+				<button id="book-form__add">Add</button>
+			</div>
+			<div class="library__book-list">
+			</div>
+		</div>
+	</div>
+	<script src="library.js"></script>
+</body>
+</html>
